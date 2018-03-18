@@ -1,0 +1,85 @@
+/* ================================================================================
+    #Reset
+================================================================================ */
+
+* { margin: 0; padding: 0; outline: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+header, footer, nav, section, article, aside, figure, details, summary { display: block; }
+
+/* ================================================================================
+    #Base
+================================================================================ */
+
+body, html { height: 100%; }
+
+body {
+    line-height: 1.2;
+    color: #222;
+    background: #fff;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ================================================================================
+    #Elements
+================================================================================ */
+
+
+body {
+    background: url('img_bg.jpeg') no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 50px auto;
+}
+.box {
+    background-color: #eee;
+    padding: 40px;
+    height: 400px;
+    box-shadow: 1px 1px 50px rgba(0,0,0,0.4);
+    height: 100%;
+}
+
+.box h2 {
+    padding-bottom: 180px;
+}
+
+.box button {
+    padding: 15px 40px;
+}
+
+.box .logout-box p {
+    padding-bottom:180px;
+}
+
+.container + .container {
+    margin-top: 80px;   
+}
+
+.container.buttons {
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.container.buttons a  {
+  margin: 0 10px; 
+}
+
+.wrapper .box {
+    text-align: center;   
+}
+
+.today {
+    background: orange;
+}
+
+table tr td {
+    cursor: pointer;
+}
+
+.calendar table {
+    border-collapse: collapse;
+}
